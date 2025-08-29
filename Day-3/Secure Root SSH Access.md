@@ -1,8 +1,8 @@
-# Following security audits, the xFusionCorp Industries security team has rolled out new protocols, including the restriction of direct root SSH login. 
+#Following security audits, the xFusionCorp Industries security team has rolled out new protocols, including the restriction of direct root SSH login. 
 
-# Your task is to disable direct SSH root login on all app servers within the Stratos Datacenter.
+#Your task is to disable direct SSH root login on all app servers within the Stratos Datacenter.
 
-# Here are the exact steps you should follow on each app server:
+#Here are the exact steps you should follow on each app server:
 
 # 1. Switch to root user
 ```
