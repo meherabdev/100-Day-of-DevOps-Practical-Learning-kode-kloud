@@ -56,6 +56,7 @@ Expected output:
 SELINUX=disabled
 ```
 
-## 6. Do not reboot now (since reboot is already scheduled). After reboot, SELinux will be disabled automatically.
+6. Do not reboot now (since reboot is already scheduled). After reboot, SELinux will be disabled automatically.
+
 
 
