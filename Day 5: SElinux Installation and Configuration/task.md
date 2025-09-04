@@ -27,13 +27,13 @@ On Ubuntu/Debian systems:
 sudo apt update
 sudo apt install -y selinux-utils selinux-basics policycoreutils
 ```
-## 3 Check SELinux current status
+## 3. Check SELinux current status
 ```
 sestatus
 ```
 This may show enabled or disabled. You don’t need to worry about the current status—only the permanent configuration matters.
 
-## 4 Permanently disable SELinux
+## 4. Permanently disable SELinux
     Edit the SELinux config file:
 ```
 sudo vi /etc/selinux/config
@@ -46,7 +46,7 @@ Change it to:
 ```
 SELINUX=disabled
 ```
-## 5 Verify the configuration change
+## 5. Verify the configuration change
 ```
 grep SELINUX= /etc/selinux/config
 
@@ -56,5 +56,6 @@ Expected output:
 SELINUX=disabled
 ```
 
-## 6 Do not reboot now (since reboot is already scheduled). After reboot, SELinux will be disabled automatically.
+## 6. Do not reboot now (since reboot is already scheduled). After reboot, SELinux will be disabled automatically.
+
 
