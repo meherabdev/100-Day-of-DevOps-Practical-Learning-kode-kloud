@@ -45,7 +45,7 @@ chmod +x hello.sh
 ```
 ls -l hello.sh
 ```
-Now:
+Now
 ```
 -rwxr-xr-x 1 ec2-user ec2-user 56 Sep 5 12:00 hello.sh
 ```
@@ -60,3 +60,4 @@ Output:
 Hello DevOps – Script Execution Permissions Test
 ```
 ## Thanks
+
