@@ -59,5 +59,4 @@ Output:
 ```
 Hello DevOps – Script Execution Permissions Test
 ```
-
-Thanks
+## Thanks
