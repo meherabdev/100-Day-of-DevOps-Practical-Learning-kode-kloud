@@ -43,6 +43,8 @@ bash: ./hello.sh: Permission denied
 ```
 chmod +x hello.sh
 ```
+Check again:
+```
 ls -l hello.sh
 ```
 Now
@@ -60,4 +62,5 @@ Output:
 Hello DevOps – Script Execution Permissions Test
 ```
 ## Thanks
+
 
